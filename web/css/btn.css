@@ -1,0 +1,17 @@
+.btn {
+  border: 4px solid #FEC63E;
+  color: #FEC63E;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  height: 40px;
+  letter-spacing: 0.05em;
+  margin: 0 auto;
+  padding: 8px;
+  text-transform: uppercase;
+  width: 140px;
+}
+.btn:hover {
+  color: #FFF;
+  border: 4px solid #FFF;
+}
