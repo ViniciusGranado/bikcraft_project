@@ -7,6 +7,10 @@ p {
   font-size: 14px;
   line-height: 20px;
 }
+
+img {
+  display: block;
+}
 /* MAIN */
 
 /* INTRO */
@@ -74,7 +78,10 @@ p {
   background-color: #000;
   height: 200px;
   padding-top: 30px;
-  width: 100%;
+  width: 300px;
+}
+.products .products-list .product-item .product-item-icon img {
+  margin: 0 auto;
 }
 .products .products-list .product-item .product-item-info {
   background-color: #FEC63E;
@@ -128,4 +135,46 @@ p {
 }
 .portfolio .call-to-action p {
   color: #FFF;
+}
+
+/* QUALITY */
+.quality {
+  height: 574px;
+  padding: 60px 0 35px;
+  text-align: center;
+}
+.quality .quality-graph::after {
+  background-image: url('../assets/svg-lines/lines.svg');
+  background-repeat: no-repeat;
+  content: '';
+  display: block;
+  height: 80px;
+  margin: 0 auto;
+  position: relative;
+  top: -183px;
+  width: 630px;
+}
+.quality .quality-graph img {
+  margin: 70px auto 45px;
+}
+.quality .quality-list li {
+  padding: 0 30px;
+}
+.quality .quality-list li h3 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.quality .quality-list li h3::after {
+  background-color: #000;
+  content: '';
+  display: block;
+  height: 3px;
+  margin: 8px auto 6px;
+  width: 60px;
+}
+.quality .call-to-action {
+  margin-top: 40px;
 }
