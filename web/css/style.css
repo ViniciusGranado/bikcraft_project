@@ -143,6 +143,9 @@ img {
   padding: 60px 0 35px;
   text-align: center;
 }
+.quality-graph {
+  height: 265px;
+}
 .quality .quality-graph::after {
   background-image: url('../assets/svg-lines/lines.svg');
   background-repeat: no-repeat;
@@ -153,6 +156,7 @@ img {
   position: relative;
   top: -183px;
   width: 630px;
+  background-position: center;
 }
 .quality .quality-graph img {
   margin: 70px auto 45px;
@@ -178,3 +182,5 @@ img {
 .quality .call-to-action {
   margin-top: 40px;
 }
+
+/* BREAK */
