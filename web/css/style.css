@@ -141,43 +141,6 @@ img {
 .quality {
   height: 574px;
   padding: 60px 0 35px;
-  text-align: center;
-}
-.quality-graph {
-  height: 265px;
-}
-.quality .quality-graph::after {
-  background-image: url('../assets/svg-lines/lines.svg');
-  background-repeat: no-repeat;
-  content: '';
-  display: block;
-  height: 80px;
-  margin: 0 auto;
-  position: relative;
-  top: -183px;
-  width: 630px;
-  background-position: center;
-}
-.quality .quality-graph img {
-  margin: 70px auto 45px;
-}
-.quality .quality-list li {
-  padding: 0 30px;
-}
-.quality .quality-list li h3 {
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 20px;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-.quality .quality-list li h3::after {
-  background-color: #000;
-  content: '';
-  display: block;
-  height: 3px;
-  margin: 8px auto 6px;
-  width: 60px;
 }
 .quality .call-to-action {
   margin-top: 40px;

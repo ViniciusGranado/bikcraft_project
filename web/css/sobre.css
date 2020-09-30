@@ -33,3 +33,12 @@
   font-size: 18px;
   line-height: 30px;
 }
+
+/* QUALITY */
+.quality-about {
+  height: 491px;
+  padding: 60px 0 87px;
+}
+.quality-about .quality-graph{
+  margin-top: 40px;
+}
