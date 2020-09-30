@@ -1,0 +1,23 @@
+.intro-inner {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFF;
+  height: 160px;
+  margin-top: 80px;
+  padding: 44px 0;
+  text-align: center;
+}
+.intro-inner h1 {
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+.intro-inner h1::after {
+  background-color: #FFF;
+  content: '';
+  display: block;
+  height: 3px;
+  margin: 7px auto 5px;
+  width: 60px;
+}
