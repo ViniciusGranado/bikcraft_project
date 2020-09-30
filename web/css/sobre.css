@@ -1,3 +1,35 @@
+/* INTRO */
 .intro-inner {
   background-image: url('../assets/backgrounds/bg-about.jpg');
+}
+
+/* VALUES */
+.values {
+  height: 383px;
+  padding: 60px 0;
+}
+.values .inner-subtitle {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+.values .inner-subtitle::after {
+  background-color: #000;
+  content: '';
+  display: block;
+  height: 3px;
+  margin: 7px 0 16px;
+  width: 60px;
+}
+.values p {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 25px;
+  max-width: 520px;
+}
+.values li {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 18px;
+  line-height: 30px;
 }
