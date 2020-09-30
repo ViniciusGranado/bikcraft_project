@@ -25,6 +25,7 @@
   padding: 10px 0;
   text-transform: uppercase;
 }
-.header-nav ul li a:hover {
+
+.header-nav ul li a.active {
   color: #FFF;
 }
