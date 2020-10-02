@@ -2,3 +2,100 @@
 .intro-inner {
   background-image: url('../assets/backgrounds/bg-products.jpg');
 }
+
+/* PRODUCTS */
+.produto {
+  margin-top: 60px;
+}
+.produto .product-title {
+  background-image: url('../assets/products/product-bg-passeio.jpg');
+  height: 280px;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+}
+.produto .product-title.passeio {
+  background-image: url('../assets/products/product-bg-passeio.jpg');
+}
+.produto .product-title.esporte {
+  background-image: url('../assets/products/product-bg-esporte.jpg');
+}
+.produto .product-title.retro {
+  background-image: url('../assets/products/product-bg-retro.jpg');
+}
+
+.produto .product-title h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 40px;
+  color: #FFF;
+  text-transform: uppercase;
+  width: fit-content;
+  margin: 0 auto;
+}
+.produto .product-title h2::before, .produto .product-title h2::after {
+  content: '';
+  height: 3px;
+  width: 60px;
+  display: block;
+  background-color: #FFF;
+  margin: 8px auto;
+}
+
+.produto .product-icon {
+  background-color: #000;
+  height: 280px;
+  padding: 70px 40px;
+}
+
+.produto .product-image {
+  margin-top: 20px;
+  height: 280px;
+}
+
+
+.produto .product-info {
+  margin-top: 20px;
+  height: 280px;
+  background-color: #000;
+}
+.product-info p {
+  color: #FFF;
+  height: 180px;
+  font-size: 18px;
+  padding: 30px;
+  line-height: 25px;
+}
+.product-info ul {
+  height: 100px;
+  width: 100%;
+}
+.product-info .grid-container {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  grid-template-areas: 'info1 info2'
+                       'info3 info4';
+  gap: 2px;
+}
+.product-info ul li {
+  font-size: 18px;
+  background-color: #FEC63E;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 13px 0;
+}
+.product-info .grid-container li:nth-child(1) {
+  grid-area: info1;
+}
+.product-info .grid-container li:nth-child(2) {
+  grid-area: info2;
+}
+.product-info .grid-container li:nth-child(3) {
+  grid-area: info3;
+}
+.product-info .grid-container li:nth-child(4) {
+  grid-area: info4;
+}
