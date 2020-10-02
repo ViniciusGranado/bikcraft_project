@@ -142,8 +142,9 @@ img {
   height: 574px;
   padding: 60px 0 35px;
 }
+.quality .quality-graph{
+  margin-top: 70px;
+}
 .quality .call-to-action {
   margin-top: 40px;
 }
-
-/* BREAK */
