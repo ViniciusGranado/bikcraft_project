@@ -1,0 +1,32 @@
+.form {
+  height: 421px;
+  padding-right: 60px;
+}
+
+.form label {
+  display: block;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+.form input, .form textarea {
+  background: none;
+  border: 5px solid #FEC63E;
+  margin: 3px 0 7px;
+  outline: none;
+  width: 100%;
+}
+.form input {
+  height: 40px;
+  padding: 0 10px;
+}
+.form textarea {
+  height: 120px;
+  padding: 5px 10px;
+  resize: none;
+}
+
+.form .btn {
+  background-color: inherit;
+  margin: 0;
+}
