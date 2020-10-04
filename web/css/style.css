@@ -110,33 +110,6 @@ img {
   padding-top: 40px;
 }
 
-/* PORTFOLIO */
-.portfolio {
-  background-color: #000;
-  height: 858px;
-  padding: 60px 0 34px;
-}
-
-.portfolio .subtitle {
-  color: #FEC63E;
-}
-.portfolio .subtitle::after {
-  background-color: #FEC63E;
-}
-
-.portfolio .portfolio-gallery {
-  margin: 40px auto;
-}
-.portfolio .portfolio-gallery img {
-  display: block;
-}
-.portfolio .portfolio-gallery li:last-child{
-  margin-top: 20px;
-}
-.portfolio .call-to-action p {
-  color: #FFF;
-}
-
 /* QUALITY */
 .quality {
   height: 574px;
