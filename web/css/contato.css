@@ -50,3 +50,8 @@
 .info .info-social-media a:hover {
   filter: brightness(0);
 }
+
+/* MAP */
+.map {
+  padding-bottom: 60px;
+}
