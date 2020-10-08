@@ -3,7 +3,7 @@
   text-align: center;
 }
 .quality-graph::after {
-  background-image: url('../assets/svg-lines/lines.svg');
+  /* background-image: url('../assets/svg-lines/lines.svg'); */
   background-repeat: no-repeat;
   content: '';
   display: block;
@@ -11,7 +11,7 @@
   margin: 0 auto;
   position: relative;
   top: -183px;
-  width: 630px;
+  max-width: 630px;
   background-position: center;
 }
 .quality-graph img {
