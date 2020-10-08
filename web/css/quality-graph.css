@@ -3,7 +3,7 @@
   text-align: center;
 }
 .quality-graph::after {
-  /* background-image: url('../assets/svg-lines/lines.svg'); */
+  background-image: url('../assets/svg-lines/lines.svg');
   background-repeat: no-repeat;
   content: '';
   display: block;
