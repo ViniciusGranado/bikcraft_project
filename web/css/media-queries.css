@@ -7,7 +7,15 @@
   /* INTRO */
   .intro {
     margin-top: 0;
-    padding-top: 20px;
+    padding-top: 40px;
     height: 410px;
+  }
+  .intro h1 {
+    font-size: 36px;
+  }
+
+  /* PRODUCTS */
+  .products .call-to-action {
+    padding-top: 10px;
   }
 }

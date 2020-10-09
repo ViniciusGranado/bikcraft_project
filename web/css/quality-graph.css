@@ -1,5 +1,4 @@
 .quality-graph {
-  height: 265px;
   text-align: center;
 }
 .quality-graph::after {
@@ -34,4 +33,21 @@
   height: 3px;
   margin: 8px auto 6px;
   width: 60px;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .quality-graph::after {
+    background-image: url('../assets/svg-lines/lines-small.svg');
+    top: -203px;
+    left: 5px;
+  }
+  .quality-graph .quality-list li {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 787px) {
+  .quality-graph::after {
+    display: none;
+  }
 }

@@ -1,11 +1,6 @@
-.footer {
-  height: 210px;
-}
-
 .footer .footer-info {
   background-color: #000;
   color: #FFF;
-  height: 150px;
   padding: 20px 0 28px;
 }
 
@@ -41,11 +36,9 @@
 .footer-info a {
   border: 3px solid #FEC63E;
   display: inline-block;
-  height: 58px;
   margin-right: 12px;
   margin-top: 20px;
   padding: 10px;
-  width: 58px;
 }
 .footer-info a:hover {
   border: 3px solid #FFF;
@@ -54,9 +47,24 @@
 
 .footer .footer-copyright {
   background-color: #FEC63E;
-  height: 60px;
   padding-top: 22px;
 }
 .footer-copyright p {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .footer-info a {
+    padding: 6px;
+    margin-right: 5px;
+  }
+  .footer-info a img{
+    width: 26px;
+    height: 26px;
+  }
+
+}
+
+@media (max-width: 787px) {
+
 }
