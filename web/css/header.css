@@ -30,6 +30,7 @@
 }
 .header-nav ul li a.active {
   color: #FFF;
+  border-color: #FFF;
 }
 
 /* MEDIA QUERIES */

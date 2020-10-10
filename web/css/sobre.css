@@ -5,7 +5,6 @@
 
 /* VALUES */
 .values {
-  height: 383px;
   padding: 60px 0;
 }
 .values .inner-subtitle {
@@ -36,9 +35,15 @@
 
 /* QUALITY */
 .quality-about {
-  height: 491px;
   padding: 60px 0 87px;
 }
 .quality-about .quality-graph{
   margin-top: 40px;
+}
+
+
+@media (max-width: 787px) {
+  .quality-about {
+    padding-bottom: 30px;
+  }
 }
