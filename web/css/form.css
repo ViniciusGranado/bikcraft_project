@@ -30,3 +30,9 @@
   background-color: inherit;
   margin: 0;
 }
+
+@media (max-width: 767px) {
+  .form {
+    padding-right: 0;
+  }
+}

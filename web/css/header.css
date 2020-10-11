@@ -39,7 +39,7 @@
 
 }
 /* SMARTPHONES */
-@media (max-width: 787px) {
+@media (max-width: 767px) {
   .header {
     position: relative;
     padding-bottom: 0;
