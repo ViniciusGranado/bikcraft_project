@@ -18,6 +18,7 @@
     <link rel='stylesheet' href='web/css/footer.css'>
     <link rel='stylesheet' href='web/css/style.css'>
     <link rel='stylesheet' href='web/css/media-queries.css'>
+    <script>document.documentElement.classList.add('js');</script>
   </head>
 
   <body>
@@ -46,9 +47,9 @@
       <!-- INTRO -->
       <section class='intro'>
         <div class="container">
-          <h1>Bicicletas feitas a mão</h1>
+          <h1 data-anime='400' class='fadeInDown'>Bicicletas feitas a mão</h1>
 
-          <blockquote class='intro-quote'>
+          <blockquote  data-anime='800' class='fadeInDown intro-quote'>
             <p class='quote-text'>
               "Não tenha nada em sua casa que você não considere útil ou acredita ser bonito."
             </p>
@@ -58,7 +59,7 @@
             </p>
           </blockquote>
 
-          <a href="produtos.html" class="btn">Orçamento</a>
+          <a  data-anime='1200' href="produtos.html" class="btn">Orçamento</a>
         </div>
       </section>
 
@@ -251,6 +252,9 @@
       </div>
 
     </footer>
+
+    <script src='./js/simple-anime.js'></script>
+    <script src='./js/script.js'></script>
   </body>
 
 </html>
