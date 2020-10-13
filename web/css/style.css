@@ -119,3 +119,42 @@ img {
 .quality .call-to-action {
   margin-top: 40px;
 }
+
+/* SLIDE */
+.js [data-slide] {
+  position: relative;
+}
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+  z-index: 1;
+}
+
+/* SLIDE NAV BUTTON */
+.js [data-slide-nav] {
+  background-color: #000;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.js [data-slide-item] {
+  background-color: #3f3f3f;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  width: 12px;
+  height: 12px;
+  margin: 0 4px;
+  padding: 0;
+  text-indent: -99px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.js [data-slide-item].active {
+  background-color: #FEC63E;
+}

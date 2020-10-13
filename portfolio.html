@@ -14,6 +14,7 @@
     <link rel='stylesheet' href='web/css/footer.css'>
     <link rel='stylesheet' href='web/css/style.css'>
     <link rel='stylesheet' href='web/css/portfolio.css'>
+    <script>document.documentElement.classList.add('js');</script>
   </head>
 
   <body>
@@ -48,16 +49,28 @@
       </section>
  
       <!-- QUOTE -->
-      <section class="quote">
+      <section class="quote" data-slide='quote'>
         <blockquote>
-          <p class='quote-text'>"No mundo atual, a continua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte."</p>
+          <p class='quote-text'>"Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez foi intensificar o meu amor por essa atividade. Recomendo à todos que amo."</p>
 
-          <p class='quote-author'>Barbara Moss</p>
+          <p class='quote-author'>Marcos Pedro</p>
+        </blockquote>
+
+        <blockquote>
+          <p class='quote-text'>"Nada melhor do que dar um role com a minha Bikcraft na orla. Essa é a minha companheira mais fiel, nunca me traiu e está sempre a minha disposição."</p>
+
+          <p class='quote-author'>Johny Rato</p>
+        </blockquote>
+
+        <blockquote>
+          <p class='quote-text'>"Aqueles que ainda não possuem uma Bikcraft, não sabem o que estão perdendo. A precisão é absurda e a velocidade transcedental. Nunca vi nada igual."</p>
+
+          <p class='quote-author'>Bernardo</p>
         </blockquote>
       </section>
 
       <!-- PORTFOLIO -->
-      <section class="portfolio">
+      <section class="portfolio" data-slide='portfolio'>
         
         <ul class="portfolio-gallery container">
           <li class='grid-8'>
@@ -66,6 +79,20 @@
 
           <li class='grid-8'>
             <img src='web/assets/portfolio/passeio.jpg' alt='Bikcraft Passeio'>
+          </li>
+  
+          <li class='grid-16'>
+            <img src='web/assets/portfolio/esporte.jpg' alt='Bikcraft Esporte'>
+          </li>
+        </ul>
+
+        <ul class="portfolio-gallery container">
+          <li class='grid-8'>
+            <img src='web/assets/portfolio/passeio.jpg' alt='Bikcraft Passeio'>
+          </li>
+          
+          <li class='grid-8'>
+            <img src='web/assets/portfolio/retro.jpg' alt='Bikcraft Retrô'>
           </li>
   
           <li class='grid-16'>
@@ -128,6 +155,9 @@
 
     </footer>
     </main>
+
+    <script src='./js/simple-slide.js'></script>
+    <script src='./js/script.js'></script>
   </body>
 
 </html>
