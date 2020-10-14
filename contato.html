@@ -55,12 +55,17 @@
         <div class="container">
 
           <div class="form grid-8">
-            <form action=''>
+            <form method='POST' action='./enviar-sendgrid.php' class='formphp'>
               <label for='name'>Nome</label>
               <input type="text" name='name' id='name' required>
 
               <label for='email'>E-mail</label>
               <input type="email" name='email' id='email' required>
+
+              <label for='leaveblank' class='wont-show'>Se você não é um robo, deixe em branco.</label>
+              <input type="text" name='leaveblank' id='leaveblank' class='wont-show'>
+              <label for='dontchange' class='wont-show'>Se você não é um robo, deixe em branco.</label>
+              <input type="text" name='dontchange' id='dontchange' value='http://' class='wont-show'>
 
               <label for='phone'>Telefone</label>
               <input type="tel" name='phone' id='phone'>
@@ -68,7 +73,7 @@
               <label for='message'>Mensagem</label>
               <textarea name='message' id='message' required></textarea>
 
-              <button class='btn' type="submit">Enviar</button>
+              <button id='send' name='send' class='btn' type="submit">Enviar</button>
             </form>
           </div>
 
@@ -157,6 +162,7 @@
     </footer>
 
     <script src='./js/simple-anime.js'></script>
+    <script src='./js/simple-form.js'></script>
     <script src='./js/script.js'></script>
   </body>
 

@@ -182,3 +182,18 @@ img {
   opacity: 1;
   transition: opacity 800ms, transform 800ms;
 }
+
+/* ANTI-SPAN FORM */
+.wont-show {
+  height: 0;
+  position: absolute;
+  visibility: hidden;
+}
+
+/* FORM MESSAGES */
+#form-sucesso {
+  color: #31AA39;
+}
+#form-erro {
+  color: #F64540;
+}
