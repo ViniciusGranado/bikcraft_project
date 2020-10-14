@@ -184,10 +184,11 @@ img {
 }
 
 /* ANTI-SPAN FORM */
-.wont-show {
+.form .wont-show {
   height: 0;
   position: absolute;
   visibility: hidden;
+  width: 0;
 }
 
 /* FORM MESSAGES */
