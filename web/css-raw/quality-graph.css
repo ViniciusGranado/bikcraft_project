@@ -3,6 +3,7 @@
 }
 .quality-graph::after {
   background-image: url('../assets/svg-lines/lines.svg');
+  background-position: center;
   background-repeat: no-repeat;
   content: '';
   display: block;
@@ -11,7 +12,6 @@
   position: relative;
   top: -183px;
   max-width: 630px;
-  background-position: center;
 }
 .quality-graph img {
   margin: 0 auto 45px;

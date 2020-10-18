@@ -59,8 +59,8 @@
     margin-right: 5px;
   }
   .footer-info a img{
-    width: 26px;
     height: 26px;
+    width: 26px;
   }
 }
 @media (max-width: 767px) {
